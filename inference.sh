@@ -4,7 +4,7 @@
 python inference.py \
 checkpoints/fregrad \
 checkpoints \
-filelists/test.txt \
+filelists/test_fgtse.txt \
 --step 1000000 \
-# --fast \
-# --fast_iter 6
+--fast \
+--fast_iter 6

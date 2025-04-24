@@ -1,0 +1,4 @@
+resampled_fgtse_samples/tse_output-10-0.wav
+resampled_fgtse_samples/tse_output-10000--10.wav
+resampled_fgtse_samples/tse_output0-10.wav
+resampled_fgtse_samples/tse_output10-10000.wav

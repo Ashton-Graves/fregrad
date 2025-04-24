@@ -48,7 +48,7 @@ import matplotlib as mpl
 
 mpl.rcParams.update(mpl.rcParamsDefault)
 
-device = torch.device("cuda")
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 def draw_fullband_spec(audio: torch.Tensor, axs):
     audio = audio.squeeze().cpu().numpy()
