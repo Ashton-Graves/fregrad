@@ -240,7 +240,8 @@ def main(args):
     if args.fast:
         sample_path = os.path.join(
             dir_parent,
-            "sample_fast",
+            # "sample_fast",
+            "hyak_sample_fast", 
             dir_base + "_step{}_fast_iter{}".format(step, T_OVERRIDE),
         )
     else:
